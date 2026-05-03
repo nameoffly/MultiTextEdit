@@ -2,15 +2,15 @@
 
 # Multilingual Image Text Editing Benchmark
 
-`<a href="#"><img src="https://img.shields.io/badge/Paper-arXiv%3ATBD-b31b1b?logo=arxiv&logoColor=red">``</a>`
-`<a href="https://huggingface.co/datasets/lwcheng/MultiTextEdit"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue">``</a>`
-`<a href="https://modelscope.cn/datasets/hisheep/MultiTextEdit"><img src="https://img.shields.io/badge/ModelScope-Dataset-orange">``</a>`
+<a href="#"><img src="https://img.shields.io/badge/Paper-arXiv%3ATBD-b31b1b?logo=arxiv&logoColor=red"></a>
+<a href="https://huggingface.co/datasets/lwcheng/MultiTextEdit"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue"></a>
+<a href="https://modelscope.cn/datasets/hisheep/MultiTextEdit"><img src="https://img.shields.io/badge/ModelScope-Dataset-orange"></a>
 
 </div>
 
 ## 📢 News
 
-* **[TBD]** 🚀 We have released the evaluation code and the multilingual image text editing benchmark!
+* **[2026-05-03]** 🚀 We have released the evaluation code and the multilingual image text editing benchmark!
 
 ---
 
@@ -99,15 +99,15 @@ A small slice of the benchmark is included in this repository under [`examples/d
 
 Download the full dataset from one of the mirrors and unpack it under the repository root. Both mirrors host identical content.
 
-* **Hugging Face:** [lwcheng/MultiTestEdit](https://huggingface.co/datasets/lwcheng/MultiTestEdit)
-* **ModelScope:** [hisheep/MultiTestEdit](https://modelscope.cn/datasets/hisheep/MultiTestEdit)
+* **Hugging Face:** [lwcheng/MultiTextEdit](https://huggingface.co/datasets/lwcheng/MultiTextEdit)
+* **ModelScope:** [hisheep/MultiTextEdit](https://modelscope.cn/datasets/hisheep/MultiTextEdit)
 
 ```bash
 # Hugging Face
-huggingface-cli download lwcheng/MultiTestEdit --repo-type dataset --local-dir dataset
+huggingface-cli download lwcheng/MultiTextEdit --repo-type dataset --local-dir dataset
 
 # or ModelScope
-modelscope download --dataset hisheep/MultiTestEdit --local_dir dataset
+modelscope download --dataset hisheep/MultiTextEdit --local_dir dataset
 ```
 
 The file structure should be like this:

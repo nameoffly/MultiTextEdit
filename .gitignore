@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment files (never commit real keys)
+.env
+.env.local
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling caches
+.claude/
+.codex/
+.codex
+
+# Logs
+*.log
+
+# Local user-side artifacts (downloaded dataset, your predictions, eval outputs)
+# Anchored at repo root so examples/dataset/ stays tracked.
+/dataset/
+/predictions/
+/results/

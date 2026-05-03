@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Art_001_en",
+  "topic": "Art",
+  "prompt": "Change the color of 'WORLD ART DAY' to green",
+  "editing_method": "color_change",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_color_change_1.jpg",
+  "source_tag": "human_annotation"
+}

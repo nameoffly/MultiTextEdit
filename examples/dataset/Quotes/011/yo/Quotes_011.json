@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Quotes_011_yo",
+  "topic": "Quotes",
+  "prompt": "Scale down  the text 'Dáwọ́ àlá dúró kí o sì bẹ̀rẹ̀ sí í ṣe é'.",
+  "editing_method": "scaling",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_scaling_1.jpg",
+  "source_tag": "human_annotation"
+}

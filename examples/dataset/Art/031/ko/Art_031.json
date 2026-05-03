@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Art_031_ko",
+  "topic": "Art",
+  "prompt": "Add the text '작업장' below '시각 예술' using a smaller font size.",
+  "editing_method": "insert",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_insert_1.jpg",
+  "source_tag": "human_annotation"
+}

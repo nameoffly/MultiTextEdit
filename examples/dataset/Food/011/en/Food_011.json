@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Food_011_en",
+  "topic": "Food",
+  "prompt": "Replace the text 'Healthy Bento Box' in the image with 'Delicious Food' while keeping the original style unchanged.",
+  "editing_method": "exchange",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_exchange_1.jpg",
+  "source_tag": "human_annotation"
+}

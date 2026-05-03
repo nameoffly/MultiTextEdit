@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Fashion_021_en",
+  "topic": "Fashion",
+  "prompt": "Outline the 'sale' with a darker color than the font.",
+  "editing_method": "change_font",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_change_font_1.jpg",
+  "source_tag": "human_annotation"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "TextEditing_Art_031_en",
+  "topic": "Art",
+  "prompt": "Add the text 'WORKSHOP' below 'VISUAL ART' using a smaller font size.",
+  "editing_method": "insert",
+  "difficulty": "medium",
+  "difficulty_score": "",
+  "input_image": "1.jpg",
+  "output_image": "text_insert_1.jpg",
+  "source_tag": "human_annotation"
+}

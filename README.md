@@ -2,13 +2,14 @@
 
 # Multilingual Image Text Editing Benchmark
 
-<a href="#"><img src="https://img.shields.io/badge/Paper-arXiv%3ATBD-b31b1b?logo=arxiv&logoColor=red"></a>
-<a href="https://huggingface.co/datasets/lwcheng/MultiTestEdit"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue"></a>
-<a href="https://modelscope.cn/datasets/hisheep/MultiTestEdit"><img src="https://img.shields.io/badge/ModelScope-Dataset-orange"></a>
+`<a href="#"><img src="https://img.shields.io/badge/Paper-arXiv%3ATBD-b31b1b?logo=arxiv&logoColor=red">``</a>`
+`<a href="https://huggingface.co/datasets/lwcheng/MultiTextEdit"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue">``</a>`
+`<a href="https://modelscope.cn/datasets/hisheep/MultiTextEdit"><img src="https://img.shields.io/badge/ModelScope-Dataset-orange">``</a>`
 
 </div>
 
 ## 📢 News
+
 * **[TBD]** 🚀 We have released the evaluation code and the multilingual image text editing benchmark!
 
 ---
@@ -28,8 +29,8 @@ To assess editing quality, we adopt a **Dual-View Evaluation Framework**: a mult
 * **🌐 Multilingual Coverage:** 12 languages spanning 5 scripts and both LTR / RTL writing directions.
 * **🎯 Text-Centric Operations:** 7 atom operations — Replace, Delete, Insert, Color, Font, Relocate, Scale.
 * **🧪 Dual-View Evaluation:**
-    * **Semantic view** — Instruction Following (IF), Text Accuracy (TA), Visual Consistency (VC), Layout Preservation (LP), and **Language/Script Fidelity (LSF)** via a two-stage trace + score judge.
-    * **Pixel view** — masked MSE / PSNR / SSIM / LPIPS computed only on the non-edited background, after SIFT alignment.
+  * **Semantic view** — Instruction Following (IF), Text Accuracy (TA), Visual Consistency (VC), Layout Preservation (LP), and **Language/Script Fidelity (LSF)** via a two-stage trace + score judge.
+  * **Pixel view** — masked MSE / PSNR / SSIM / LPIPS computed only on the non-edited background, after SIFT alignment.
 * **✅ Multi-Stage Human Verification:** translation review, cross-annotator check, and full-dataset audit.
 
 ---
@@ -40,23 +41,23 @@ The benchmark comprises **3,600 paired instances**, built from 300 base images e
 
 ### 🧩 Dataset Composition
 
-| Item | Value |
-|---|---|
-| Base images | 300 |
-| Languages | 12 (en, zh, ar, bn, es, he, ja, ko, nl, ru, vi, yo) |
-| Total instances | 3,600 (300 × 12) |
-| Visual domains | 5 (Art, Event, Fashion, Food, Quotes) |
+| Item               | Value                                                                             |
+| ------------------ | --------------------------------------------------------------------------------- |
+| Base images        | 300                                                                               |
+| Languages          | 12 (en, zh, ar, bn, es, he, ja, ko, nl, ru, vi, yo)                               |
+| Total instances    | 3,600 (300 × 12)                                                                 |
+| Visual domains     | 5 (Art, Event, Fashion, Food, Quotes)                                             |
 | Editing operations | 7 (color_change, change_font, exchange, insert, relocation, scaling, text_delete) |
 
 Per-domain distribution:
 
-| Domain | # base images | Operations covered |
-|---|---:|---|
-| Art | 70 | color_change, exchange, insert, relocation, scaling, text_delete |
-| Event | 60 | color_change, exchange, insert, relocation, scaling, text_delete |
-| Fashion | 110 | color_change, change_font, exchange, insert, relocation, scaling, text_delete |
-| Food | 30 | color_change, exchange, insert, relocation, scaling, text_delete |
-| Quotes | 30 | color_change, relocation, scaling, text_delete, insert, exchange |
+| Domain  | # base images | Operations covered                                                            |
+| ------- | ------------: | ----------------------------------------------------------------------------- |
+| Art     |            70 | color_change, exchange, insert, relocation, scaling, text_delete              |
+| Event   |            60 | color_change, exchange, insert, relocation, scaling, text_delete              |
+| Fashion |           110 | color_change, change_font, exchange, insert, relocation, scaling, text_delete |
+| Food    |            30 | color_change, exchange, insert, relocation, scaling, text_delete              |
+| Quotes  |            30 | color_change, relocation, scaling, text_delete, insert, exchange              |
 
 ---
 
@@ -65,8 +66,8 @@ Per-domain distribution:
 ### Setup Environment
 
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/nameoffly/MultiTextEdit.git
+cd MultiTextEdit
 
 conda create -n texteditml python=3.10
 conda activate texteditml

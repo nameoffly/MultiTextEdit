@@ -2,7 +2,7 @@
 
 # Multilingual Image Text Editing Benchmark
 
-<a href="#"><img src="https://img.shields.io/badge/Paper-arXiv%3ATBD-b31b1b?logo=arxiv&logoColor=red"></a>
+<a href="https://arxiv.org/abs/2605.08163"><img src="https://img.shields.io/badge/Paper-arXiv%3A2605.08163-b31b1b?logo=arxiv&logoColor=red"></a>
 <a href="https://huggingface.co/datasets/lwcheng/MultiTextEdit"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue"></a>
 <a href="https://modelscope.cn/datasets/hisheep/MultiTextEdit"><img src="https://img.shields.io/badge/ModelScope-Dataset-orange"></a>
 
